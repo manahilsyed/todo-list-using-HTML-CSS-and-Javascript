@@ -1,0 +1,116 @@
+:root {
+    --theme: #ef0f45;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    border: 1px solid var(--theme);
+    width: 380px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+
+.div1 {
+    background-color: var(--theme);
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    padding-top: 29px;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    background: black;  
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--theme);
+    font-size: 16px;
+    color: white;
+   padding-bottom: 10px;
+    padding-top: 18px;
+}
+
+button{
+    margin-top: 30px;
+    height: 45px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.div3{
+    margin-top: 30px;
+    height: 300px;
+    overflow: auto;
+}
+
+
+ .myList{
+    border-bottom: 1px solid var(--theme);
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    right: 30px;
+    height: 29px;
+    margin-left: 10px;
+    text-align: center;
+
+   
+} 
+
+.myList input {
+    width: 80%;  /* Ensure the input field doesn't overlap with icons */
+    padding: 5px;
+    background-color: black;
+    border: 1px solid var(--theme);
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.fa-trash, .fa-pencil {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fa-trash:hover {
+    color: red;
+    
+}
+
+.fa-pencil:hover {
+    color: yellow;
+}
+
+
+.fa-pencil{
+    color: rgb(194, 194, 2);
+    float: right;
+    margin-right: 25px;
+}
+
+.fa-trash{
+    color: skyblue;
+    float: right;
+    margin-right: 16px;
+
+}
